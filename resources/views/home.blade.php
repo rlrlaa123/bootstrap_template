@@ -45,13 +45,13 @@
         text-align: center;
         font-family:sans-serif;
         padding:5%;
-        font-size: 2vw;
+        font-size: 4.5vw;
     }
     .sysdeveloptitle{
         text-align: center;
         font-family:sans-serif;
         padding:5%;
-        font-size: 2vw;
+        font-size: 4.5vw;
     }
 
     #sysdevelop{
@@ -118,7 +118,7 @@
 
 
     #consultingtitle{
-        font-size:2vw;
+        font-size:4.5vw;
         padding-bottom: 5%;
 
     }
@@ -169,7 +169,7 @@
         text-align: center;
         font-family:sans-serif;
         padding:5%;
-        font-size: 2vw;
+        font-size:4.5vw;
     }
 
 
