@@ -9,8 +9,6 @@ class HomeController extends Controller
 {
     public function index(){
 
-        $intro = Intro::all();
-
-        return view('home',compact('intro'));
+        return view('home');
     }
 }
