@@ -11,10 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('home','HomeController@index');
+Route::get('/','HomeController@index');
 
 Route::resource('admin','Admin\AdminController');
+
+Route::get('/record',function(){
+    return view('record');
+});
