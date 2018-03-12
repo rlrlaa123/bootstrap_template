@@ -8,49 +8,238 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>(주)코드바이스</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
 
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
+<style>
+
+    @font-face {
+        font-family: BMDOHYEON_ttf;
+        src:url("vendor/baemin/BMDOHYEON_ttf.ttf");
+
+    } @font-face {
+        font-family: NotoSans-Black!important;
+        src:url("vendor/baemin/NotoSans/NotoSans-Black.ttf");
+
+    }
+    html:lang(en) {
+        font-family: sans-serif!important;
+    }
+    html{
+        font-size: 100%;
+        font-family:BMDOHYEON_ttf!important;
+    }
+    .intro-text{
+        text-align: left;
+        line-height: 170%;
+        font-size: 1.7vw;
+    }
+    .servicetitle{
+        text-align: center;
+        font-family:sans-serif;
+        padding:5%;
+        font-size: 2vw;
+    }
+    .sysdeveloptitle{
+        text-align: center;
+        font-family:sans-serif;
+        padding:5%;
+        font-size: 2vw;
+    }
+
+    #sysdevelop{
+        margin-bottom: 0px;
+    }
+    #sysdevelop h2{
+        font-size:2vw;
+    }
+
+
+    .developedlists img{
+        width:55%;
+
+    }
+    #service h3{
+        padding:3.7vw;
+        font-size:2vw;
+    }
+    #servicealign{
+        display:grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        padding:10px;
+        font-family: BMDOHYEON_ttf;
+        text-align: center;
+    }
+    #servicealign img{
+        width: 50%;
+    }
+    #servicealign h4{
+        font-size:75%;
+        font-weight:400;
+        color:grey;
+    }
+    #servicealign p{
+        font-size: 1.3vw;
+        color:black!important;
+
+    }
+    ul{
+        list-style-type:none;
+
+    }
+    .developdescs ul li:before {
+
+        content: '';
+
+        display: inline-block;
+
+        height: 15px;
+
+        width: 30px;
+
+        background-size: 20px;
+
+        background-image: url('img/additionalimage/check.png');
+
+        background-repeat: no-repeat;
+
+        margin-right: 5px;
+    }
+    li{
+        font-size: 1.4vw;
+    }
+
+
+    #consultingtitle{
+        font-size:2vw;
+        padding-bottom: 5%;
+
+    }
+
+    .itconsulting{
+        width: 100%;
+        height: 100%;
+        padding: 5% 15%;
+    }
+    .itconsultingdesc p,h3 {
+        font-family: NotoSans-Black!important;
+
+    }
+    .itconsultingdesc{
+        display:grid;
+        grid-template-columns: 44.5% 11% 44.5%;
+        width: 100%;
+        height:38vw;
+        padding-top: 0.5vw;
+    }
+    .consulting1text{
+        background-image:url("img/additionalimage/Model_consulting.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+        font-family: NotoSans-Black!important;
+        color:white;
+        align-items: center;
+        justify-content: center;
+        text-align:center;
+        padding:30% 5% 70% 5%;
+
+    }
+    .consulting2text{  background-image:url("img/additionalimage/Policy_consulting.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+        color:white;
+        font-family: NotoSans-Black!important;
+        align-items: center;
+        justify-content: center;
+        text-align:center;
+        padding:30% 5% 70% 5%;
+      }
+    #contact_title{
+        text-align: center;
+        font-family:sans-serif;
+        padding:5%;
+        font-size: 2vw;
+    }
+
+
+    #contactus{
+       display:grid;
+        grid-template-columns: 47.5% 5% 47.5%;
+        font-family: BMDOHYEON_ttf;
+        padding:30px 0px;
+        width: 100%;
+        height:100%;
+    }
+    #contactdesc{
+        padding: 20px 0px;
+        font-family: BMDOHYEON_ttf;
+        font-size: 1.4vw;
+
+    }
+    .developdescs{
+        display:grid;
+        grid-template-columns: 40% 20% 40%;
+        padding:50px;
+        text-align:-webkit-center;
+        text-align: center;
+        font-weight: bold;
+
+    }
+    .developlist{
+        display:grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        padding:10px;
+        text-align: center;
+    }
+    .developedlists{
+
+
+    }
+    td img{
+        width:100%;
+        height:100%;
+
+    }
+
+    #contact{
+        padding:0px;
+        margin:20px;
+
+    }
+</style>
 
 </head>
 
 <body id="page-top">
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: black; padding: 1px;">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
-            <i class="fa fa-bars"></i>
-        </button>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top" style="color:white; font-family: BMDOHYEON_ttf">Codvice</a>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+                    <a class="nav-link js-scroll-trigger" href="#service">Service</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                    <a class="nav-link js-scroll-trigger" href="#sysdevelop">System Develop</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    <a class="nav-link js-scroll-trigger" href="#itconsulting">IT Consulting</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#team">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    <a class="nav-link js-scroll-trigger" href="#contact">Contact us</a>
                 </li>
             </ul>
         </div>
@@ -60,639 +249,116 @@
 <header class="masthead">
     <div class="container">
         <div class="intro-text">
-            <div class="intro-lead-in">{{ $intro[0]->title }}</div>
-            <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
-        </div>
+          <p style="font-family: BMDOHYEON_ttf;"><p style="font-size: 3.5vw">"고객 중심의 개발 회사"</p>
+          <br>
+
+            - 가장 편하고 가장 알아듣기 쉽게 개발에 관련된 기획을 진행해 드립니다.<br>
+            - 처음 접하는 기술적 영역에 대해 고객과 하나하나 함께 공유하며<br>&nbsp;&nbsp; 조금은 느리지만 오류 없는 개발을 지향합니다.</p>
     </div>
+        </div>
 </header>
 
 <!-- Services -->
-<section id="services">
+<section id="service">
     <div class="container">
         <div class="row">
+            <div class="col-lg-12 text-center" style="padding: 0px 0px 66px 0px;">
+                <h3 class="service_title">Service</h3>
+                <p style="font-size: 1.27vw;">교육(Education) + 기술(Technology) = 에듀테크(EduTech)<br>
+               코드바이스는 에듀테크 전문 기업으로 다양한 IT 기술을 활용해 교육 산업을 변화시키고 있습니다.</p>
+            </div>
+        </div>
+
+            <div id="servicealign">
+                <div>
+                    <img src="img/additionalimage/Editalk.png">
+                <h4 class="servicetitle">서비스 중</h4>
+                <p class="text-muted">중국어 가상 채팅<br>교육 서비스.</p>
+                </div>
+                <div>
+                    <img src="img/additionalimage/Chiyou.png" >
+                <h4 class="service-heading">서비스 중</h4>
+                <p class="text-muted">HSK 전문 <br>첨삭 서비스</p>
+                </div>
+                <div>
+                    <img src="img/additionalimage/Chinaroad.png">
+                <h4 class="service-heading">오픈 준비중</h4>
+                <p class="text-muted">중국어 첨삭 및<br>스피킹 교육 서비스</p>
+                </div>
+                <div>
+                    <img src="img/additionalimage/Hanchat.png">
+                    <h4 class="service-heading">서비스 개발 중</h4>
+                    <p class="text-muted">한국어 교육 서비스</p>
+                </div></div>
+
+    </div>
+</section>
+
+<!-- system development Grid -->
+<section class="bg-light" id="sysdevelop" style="width:100%; height:100%">
+    <div class="container">
+
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">Services</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h2 class=sysdeveloptitle>System Development</h2>
             </div>
-        </div>
-        <div class="row text-center">
-            <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-            </span>
-                <h4 class="service-heading">E-Commerce</h4>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <div class="developdescs">
+                <div><ul><li>어플리케이션 맞춤 개발</li><li>홈페이지 맞춤 개발</li></ul></div>
+                <div></div>
+                <div><ul><li>쇼핑몰 맞춤 개발</li><li>앱으로 업그레이드</li></ul></div>
             </div>
-            <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-            </span>
-                <h4 class="service-heading">Responsive Design</h4>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <div class="developlist">
+                <div class="developedlists"><img src="img/additionalimage/Hired.png">
+                </div>
+                <div class="developedlists"><img src="img/additionalimage/Medical.png">
+                </div>
+                <div class="developedlists"><img src="img/additionalimage/Modudatoss.png">
+                </div>
             </div>
-            <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-            </span>
-                <h4 class="service-heading">Web Security</h4>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-            </div>
-        </div>
+
     </div>
 </section>
+<!-- IT Consulting -->
+<section id="itconsulting" class="itconsulting">
+    <h2 id="consultingtitle" style="text-align: center; font-family: sans-serif;">IT Consulting</h2>
+    <div class="itconsultingdesc">
 
-<!-- Portfolio Grid -->
-<section class="bg-light" id="portfolio">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">Portfolio</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Threads</h4>
-                    <p class="text-muted">Illustration</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Explore</h4>
-                    <p class="text-muted">Graphic Design</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Finish</h4>
-                    <p class="text-muted">Identity</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Lines</h4>
-                    <p class="text-muted">Branding</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Southwest</h4>
-                    <p class="text-muted">Website Design</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Window</h4>
-                    <p class="text-muted">Photography</p>
-                </div>
-            </div>
-        </div>
+            <div class="consulting1text">
+                <h3 style="font-size:2.3vw;">IT 비즈니스 모델 컨설팅</h3>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p style="font-size:1.5vw;">대기업, 공공기관 등에서 기술창업 강의 진행 중<br>정확한 목적을 찾고 그에 걸맞은 모델을 잡아드립니다.</p></div>
+        <div></div>
+            <div class="consulting2text">
+                <h3 style="font-size:2.3vw;">IT 정책자금 컨설팅</h3>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p style="font-size:1.5vw;">나한테 딱 맞는 정책 자금 추천<br>너무나 어려운 준비 작업의 멘토가<br>되어드립니다.</p></div>
     </div>
 </section>
-
-<!-- About -->
-<section id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">About</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>December 2012</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2014</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>Be Part
-                                <br>Of Our
-                                <br>Story!</h4>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Team -->
-<section class="bg-light" id="team">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-                    <h4>Kay Garland</h4>
-                    <p class="text-muted">Lead Designer</p>
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fa fa-linkedin"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-                    <h4>Larry Parker</h4>
-                    <p class="text-muted">Lead Marketer</p>
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fa fa-linkedin"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-                    <h4>Diana Pertersen</h4>
-                    <p class="text-muted">Lead Developer</p>
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fa fa-linkedin"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-8 mx-auto text-center">
-                <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Clients -->
-<section class="py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <a href="#">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="#">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="#">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="#">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- Contact -->
-<section id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">Contact Us</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <form id="contactForm" name="sentMessage" novalidate>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required data-validation-required-message="Please enter your phone number.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <textarea class="form-control" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="col-lg-12 text-center">
-                            <div id="success"></div>
-                            <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+<section id="contact" >
+<h2 id="contact_title">Contact us</h2>
+    <div id="contactus" style="font-family: BMDOHYEON_ttf"><div style="align:center;">
+            <table cellpadding="0" cellspacing="0" width="400px" style="float: right;">
+                <tr>
+                    <td style="border:1px solid #cecece;"><a href="https://map.naver.com/?searchCoord=afeb07d7745ec052347227120e0f9e4ed46fa3ac5466b4653b31380c21d297f8&query=6rK96riw64%2BEIOyEseuCqOyLnCDspJHsm5Dqtawg6rSR66qF66GcIDM3Nywg7Iug6rWs64yA7ZWZ6rWQIOywveyXheq0gCA1MDftmLg%3D&tab=1&lng=97238233372d9fac0625f8cd5cd0a468&mapMode=0&mpx=02133540%3A37.4462711%2C127.164028%3AZ11%3A0.0198688%2C0.0087770&lat=aed90835461d40a12b0d72603d987d86&dlevel=12&enc=b64&menu=location" target="_blank">
+                            <img src="http://prt.map.naver.com/mashupmap/print?key=p1520484834574_-1367476952" alt="지도 크게 보기" title="지도 크게 보기" border="0" style="vertical-align:top; align:center;"/></a></td> </tr>
+                <tr><td><table cellpadding="0" cellspacing="0" width="100%"> <tr> <td height="28" bgcolor="#f9f9f9" align="left" style="padding-left:9px; border-left:1px solid #cecece; border-bottom:1px solid #cecece;">
+                                    <span style="font-family: tahoma; font-size: 11px; color:#666;">2018.3.8</span>&nbsp;
+                                    <span style="font-size: 11px; color:#e5e5e5;">|</span>&nbsp;
+                                    <a style="font-family: dotum,sans-serif; font-size: 11px; color:#666; text-decoration: none; letter-spacing: -1px;" href="https://map.naver.com/?searchCoord=afeb07d7745ec052347227120e0f9e4ed46fa3ac5466b4653b31380c21d297f8&query=6rK96riw64%2BEIOyEseuCqOyLnCDspJHsm5Dqtawg6rSR66qF66GcIDM3Nywg7Iug6rWs64yA7ZWZ6rWQIOywveyXheq0gCA1MDftmLg%3D&tab=1&lng=97238233372d9fac0625f8cd5cd0a468&mapMode=0&mpx=02133540%3A37.4462711%2C127.164028%3AZ11%3A0.0198688%2C0.0087770&lat=aed90835461d40a12b0d72603d987d86&dlevel=12&enc=b64&menu=location" target="_blank">지도 크게 보기</a>
+                                </td> <td width="px" bgcolor="#f9f9f9" align="right" style="text-align:right;; border-right:1px solid #cecece; border-bottom:1px solid #cecece;">
+                                    <span style="float:right;"><span style="font-size:9px; font-family:Verdana, sans-serif; color:#444;">&copy;&nbsp;</span>&nbsp;
+                                        <a style="font-family:tahoma; font-size:9px; font-weight:bold; color:#2db400; text-decoration:none;" href="http://www.nhncorp.com" target="_blank">NAVER Corp.</a></span> </td> </tr> </table> </td> </tr> </table></div>
+    <div></div><div id="contactdesc" style="font-family: BMDOHYEON_ttf"><p><b>회사명</b>   |   주식회사 코드바이스</p><p><b>사업자번호</b>   |   129-86-88413</p><p><b>대표</b>   |   송인혁</p><p><b>주소</b>   |   경기도 성남시 중원구 광명로 377, 신구대학교 창업관 507호</p>
+            <p><b>대표전화</b>   |   031-747-4709</p><p><b>문의</b>   |   codvice@gmail.com</p></div></div>
+
+
 </section>
-
-<!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <span class="copyright">Copyright &copy; Your Website 2018</span>
-            </div>
-            <div class="col-md-4">
-                <ul class="list-inline social-buttons">
-                    <li class="list-inline-item">
-                        <a href="#">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#">
-                            <i class="fa fa-linkedin"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <ul class="list-inline quicklinks">
-                    <li class="list-inline-item">
-                        <a href="#">Privacy Policy</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#">Terms of Use</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<!-- Portfolio Modals -->
-
-<!-- Modal 1 -->
-<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2017</li>
-                                <li>Client: Threads</li>
-                                <li>Category: Illustration</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                <i class="fa fa-times"></i>
-                                Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal 2 -->
-<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2017</li>
-                                <li>Client: Explore</li>
-                                <li>Category: Graphic Design</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                <i class="fa fa-times"></i>
-                                Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal 3 -->
-<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2017</li>
-                                <li>Client: Finish</li>
-                                <li>Category: Identity</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                <i class="fa fa-times"></i>
-                                Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal 4 -->
-<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2017</li>
-                                <li>Client: Lines</li>
-                                <li>Category: Branding</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                <i class="fa fa-times"></i>
-                                Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal 5 -->
-<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2017</li>
-                                <li>Client: Southwest</li>
-                                <li>Category: Website Design</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                <i class="fa fa-times"></i>
-                                Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal 6 -->
-<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2017</li>
-                                <li>Client: Window</li>
-                                <li>Category: Photography</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                <i class="fa fa-times"></i>
-                                Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
@@ -700,10 +366,6 @@
 
 <!-- Plugin JavaScript -->
 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-<!-- Contact form JavaScript -->
-<script src="js/jqBootstrapValidation.js"></script>
-<script src="js/contact_me.js"></script>
 
 <!-- Custom scripts for this template -->
 <script src="js/agency.min.js"></script>
