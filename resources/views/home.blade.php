@@ -241,6 +241,9 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#contact">Contact us</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="record">Test</a>
+                </li>
             </ul>
         </div>
     </div>
